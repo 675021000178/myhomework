@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3E5240"/>
+      <stop offset="100%" stop-color="#2C3E2D"/>
+    </linearGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5EFE3" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F5EFE3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="980" cy="150" r="70" fill="#C9A227" opacity="0.85"/>
+  <!-- far ridge -->
+  <path d="M0 380 L120 300 L260 360 L400 280 L560 350 L700 270 L860 340 L1000 290 L1200 360 L1200 700 L0 700 Z" fill="#4A5D46"/>
+  <!-- mid ridge -->
+  <path d="M0 460 L150 390 L320 450 L480 380 L650 440 L820 370 L980 430 L1200 400 L1200 700 L0 700 Z" fill="#37492F"/>
+  <!-- mist band -->
+  <rect x="0" y="400" width="1200" height="120" fill="url(#mist)"/>
+  <!-- near ridge -->
+  <path d="M0 560 L180 500 L360 550 L560 480 L760 540 L960 490 L1200 540 L1200 700 L0 700 Z" fill="#2C3E2D"/>
+  <!-- foreground mist -->
+  <rect x="0" y="520" width="1200" height="100" fill="url(#mist)" opacity="0.7"/>
+</svg>
